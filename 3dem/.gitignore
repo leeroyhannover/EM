@@ -89,5 +89,5 @@ target/
 .mypy_cache/
 
 # all mrc data from MDC
-*.mrcS
+*.mrc
 

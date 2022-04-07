@@ -91,3 +91,16 @@ target/
 # all mrc data from MDC
 *.mrc
 
+
+# half-processed data
+*.npy
+
+# half-processed model
+*.h5
+
+# transferred code
+*.py
+
+# images
+*.png
+

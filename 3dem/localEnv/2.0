@@ -1,0 +1,280 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/li52/.conda/envs/seg
+
+  added / updated specs:
+    - python=3.7
+    - tensorflow-gpu
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _tflow_select-2.1.0        |              gpu           2 KB
+    absl-py-0.15.0             |     pyhd3eb1b0_0         103 KB
+    aiohttp-3.8.1              |   py37h7f8727e_1         514 KB
+    aiosignal-1.2.0            |     pyhd3eb1b0_0          12 KB
+    astor-0.8.1                |   py37h06a4308_0          47 KB
+    astunparse-1.6.3           |             py_0          17 KB
+    async-timeout-4.0.1        |     pyhd3eb1b0_0          10 KB
+    asynctest-0.13.0           |             py_0          26 KB
+    blinker-1.4                |   py37h06a4308_0          23 KB
+    brotlipy-0.7.0             |py37h27cfd23_1003         320 KB
+    c-ares-1.18.1              |       h7f8727e_0         114 KB
+    ca-certificates-2022.3.29  |       h06a4308_0         117 KB
+    cachetools-4.2.2           |     pyhd3eb1b0_0          13 KB
+    certifi-2021.10.8          |   py37h06a4308_2         151 KB
+    cffi-1.15.0                |   py37hd667e15_1         222 KB
+    click-8.0.4                |   py37h06a4308_0         152 KB
+    cryptography-3.4.8         |   py37hd23ed53_0         941 KB
+    cudatoolkit-10.1.243       |       h6bb024c_0       347.4 MB
+    cudnn-7.6.5                |       cuda10.1_0       179.9 MB
+    cupti-10.1.168             |                0         1.4 MB
+    frozenlist-1.2.0           |   py37h7f8727e_0          78 KB
+    gast-0.4.0                 |     pyhd3eb1b0_0          13 KB
+    google-auth-2.6.0          |     pyhd3eb1b0_0          83 KB
+    google-auth-oauthlib-0.4.4 |     pyhd3eb1b0_0          18 KB
+    google-pasta-0.2.0         |     pyhd3eb1b0_0          46 KB
+    grpcio-1.42.0              |   py37hce63b2e_0         2.1 MB
+    h5py-2.10.0                |   py37hd6299e0_1         902 KB
+    idna-3.3                   |     pyhd3eb1b0_0          49 KB
+    importlib-metadata-4.11.3  |   py37h06a4308_0          40 KB
+    keras-preprocessing-1.1.2  |     pyhd3eb1b0_0          35 KB
+    libprotobuf-3.19.1         |       h4ff587b_0         2.1 MB
+    markdown-3.3.4             |   py37h06a4308_0         127 KB
+    mkl-service-2.4.0          |   py37h7f8727e_0          56 KB
+    mkl_fft-1.3.1              |   py37hd3c417c_0         172 KB
+    mkl_random-1.2.2           |   py37h51133e4_0         287 KB
+    multidict-5.2.0            |   py37h7f8727e_2          62 KB
+    ncurses-6.3                |       h7f8727e_2         782 KB
+    numpy-1.21.2               |   py37h20f2e39_0          23 KB
+    numpy-base-1.21.2          |   py37h79a1101_0         4.8 MB
+    oauthlib-3.2.0             |     pyhd3eb1b0_0          92 KB
+    openssl-1.1.1n             |       h7f8727e_0         2.5 MB
+    opt_einsum-3.3.0           |     pyhd3eb1b0_1          57 KB
+    pip-21.2.2                 |   py37h06a4308_0         1.8 MB
+    protobuf-3.19.1            |   py37h295c915_0         306 KB
+    pyasn1-0.4.8               |     pyhd3eb1b0_0          54 KB
+    pyasn1-modules-0.2.8       |             py_0          72 KB
+    pyjwt-2.1.0                |   py37h06a4308_0          32 KB
+    pysocks-1.7.1              |           py37_1          27 KB
+    python-3.7.13              |       h12debd9_0        46.2 MB
+    python-flatbuffers-2.0     |     pyhd3eb1b0_0          34 KB
+    readline-8.1.2             |       h7f8727e_1         354 KB
+    requests-2.27.1            |     pyhd3eb1b0_0          54 KB
+    requests-oauthlib-1.3.0    |             py_0          23 KB
+    rsa-4.7.2                  |     pyhd3eb1b0_1          28 KB
+    scipy-1.7.3                |   py37hc147768_0        16.4 MB
+    setuptools-58.0.4          |   py37h06a4308_0         775 KB
+    sqlite-3.38.2              |       hc218d9a_0         1.0 MB
+    tensorboard-2.4.0          |     pyhc547734_0         8.8 MB
+    tensorboard-plugin-wit-1.6.0|             py_0         630 KB
+    tensorflow-2.4.1           |gpu_py37ha2e99fa_0           4 KB
+    tensorflow-base-2.4.1      |gpu_py37h29c2da4_0       195.2 MB
+    tensorflow-estimator-2.6.0 |     pyh7b7c402_0         267 KB
+    tensorflow-gpu-2.4.1       |       h30adc30_0           3 KB
+    termcolor-1.1.0            |   py37h06a4308_1           9 KB
+    typing-extensions-4.1.1    |       hd3eb1b0_0           8 KB
+    typing_extensions-4.1.1    |     pyh06a4308_0          28 KB
+    urllib3-1.26.8             |     pyhd3eb1b0_0         106 KB
+    werkzeug-2.0.3             |     pyhd3eb1b0_0         221 KB
+    wheel-0.37.1               |     pyhd3eb1b0_0          33 KB
+    wrapt-1.13.3               |   py37h7f8727e_2          51 KB
+    yarl-1.6.3                 |   py37h27cfd23_0         133 KB
+    zipp-3.7.0                 |     pyhd3eb1b0_0          12 KB
+    zlib-1.2.11                |       h7f8727e_4         108 KB
+    ------------------------------------------------------------
+                                           Total:       818.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-4.5-1_gnu
+  _tflow_select      pkgs/main/linux-64::_tflow_select-2.1.0-gpu
+  absl-py            pkgs/main/noarch::absl-py-0.15.0-pyhd3eb1b0_0
+  aiohttp            pkgs/main/linux-64::aiohttp-3.8.1-py37h7f8727e_1
+  aiosignal          pkgs/main/noarch::aiosignal-1.2.0-pyhd3eb1b0_0
+  astor              pkgs/main/linux-64::astor-0.8.1-py37h06a4308_0
+  astunparse         pkgs/main/noarch::astunparse-1.6.3-py_0
+  async-timeout      pkgs/main/noarch::async-timeout-4.0.1-pyhd3eb1b0_0
+  asynctest          pkgs/main/noarch::asynctest-0.13.0-py_0
+  attrs              pkgs/main/noarch::attrs-21.4.0-pyhd3eb1b0_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  blinker            pkgs/main/linux-64::blinker-1.4-py37h06a4308_0
+  brotlipy           pkgs/main/linux-64::brotlipy-0.7.0-py37h27cfd23_1003
+  c-ares             pkgs/main/linux-64::c-ares-1.18.1-h7f8727e_0
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.3.29-h06a4308_0
+  cachetools         pkgs/main/noarch::cachetools-4.2.2-pyhd3eb1b0_0
+  certifi            pkgs/main/linux-64::certifi-2021.10.8-py37h06a4308_2
+  cffi               pkgs/main/linux-64::cffi-1.15.0-py37hd667e15_1
+  charset-normalizer pkgs/main/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
+  click              pkgs/main/linux-64::click-8.0.4-py37h06a4308_0
+  cryptography       pkgs/main/linux-64::cryptography-3.4.8-py37hd23ed53_0
+  cudatoolkit        pkgs/main/linux-64::cudatoolkit-10.1.243-h6bb024c_0
+  cudnn              pkgs/main/linux-64::cudnn-7.6.5-cuda10.1_0
+  cupti              pkgs/main/linux-64::cupti-10.1.168-0
+  dataclasses        pkgs/main/noarch::dataclasses-0.8-pyh6d0b6a4_7
+  frozenlist         pkgs/main/linux-64::frozenlist-1.2.0-py37h7f8727e_0
+  gast               pkgs/main/noarch::gast-0.4.0-pyhd3eb1b0_0
+  google-auth        pkgs/main/noarch::google-auth-2.6.0-pyhd3eb1b0_0
+  google-auth-oauth~ pkgs/main/noarch::google-auth-oauthlib-0.4.4-pyhd3eb1b0_0
+  google-pasta       pkgs/main/noarch::google-pasta-0.2.0-pyhd3eb1b0_0
+  grpcio             pkgs/main/linux-64::grpcio-1.42.0-py37hce63b2e_0
+  h5py               pkgs/main/linux-64::h5py-2.10.0-py37hd6299e0_1
+  hdf5               pkgs/main/linux-64::hdf5-1.10.6-hb1b8bf9_0
+  idna               pkgs/main/noarch::idna-3.3-pyhd3eb1b0_0
+  importlib-metadata pkgs/main/linux-64::importlib-metadata-4.11.3-py37h06a4308_0
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2021.4.0-h06a4308_3561
+  keras-preprocessi~ pkgs/main/noarch::keras-preprocessing-1.1.2-pyhd3eb1b0_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.35.1-h7274673_9
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-9.3.0-h5101ec6_17
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-7.5.0-ha8ba4b0_17
+  libgfortran4       pkgs/main/linux-64::libgfortran4-7.5.0-ha8ba4b0_17
+  libgomp            pkgs/main/linux-64::libgomp-9.3.0-h5101ec6_17
+  libprotobuf        pkgs/main/linux-64::libprotobuf-3.19.1-h4ff587b_0
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-9.3.0-hd4cf53a_17
+  markdown           pkgs/main/linux-64::markdown-3.3.4-py37h06a4308_0
+  mkl                pkgs/main/linux-64::mkl-2021.4.0-h06a4308_640
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py37h7f8727e_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.1-py37hd3c417c_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py37h51133e4_0
+  multidict          pkgs/main/linux-64::multidict-5.2.0-py37h7f8727e_2
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h7f8727e_2
+  numpy              pkgs/main/linux-64::numpy-1.21.2-py37h20f2e39_0
+  numpy-base         pkgs/main/linux-64::numpy-base-1.21.2-py37h79a1101_0
+  oauthlib           pkgs/main/noarch::oauthlib-3.2.0-pyhd3eb1b0_0
+  openssl            pkgs/main/linux-64::openssl-1.1.1n-h7f8727e_0
+  opt_einsum         pkgs/main/noarch::opt_einsum-3.3.0-pyhd3eb1b0_1
+  pip                pkgs/main/linux-64::pip-21.2.2-py37h06a4308_0
+  protobuf           pkgs/main/linux-64::protobuf-3.19.1-py37h295c915_0
+  pyasn1             pkgs/main/noarch::pyasn1-0.4.8-pyhd3eb1b0_0
+  pyasn1-modules     pkgs/main/noarch::pyasn1-modules-0.2.8-py_0
+  pycparser          pkgs/main/noarch::pycparser-2.21-pyhd3eb1b0_0
+  pyjwt              pkgs/main/linux-64::pyjwt-2.1.0-py37h06a4308_0
+  pyopenssl          pkgs/main/noarch::pyopenssl-21.0.0-pyhd3eb1b0_1
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py37_1
+  python             pkgs/main/linux-64::python-3.7.13-h12debd9_0
+  python-flatbuffers pkgs/main/noarch::python-flatbuffers-2.0-pyhd3eb1b0_0
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  requests           pkgs/main/noarch::requests-2.27.1-pyhd3eb1b0_0
+  requests-oauthlib  pkgs/main/noarch::requests-oauthlib-1.3.0-py_0
+  rsa                pkgs/main/noarch::rsa-4.7.2-pyhd3eb1b0_1
+  scipy              pkgs/main/linux-64::scipy-1.7.3-py37hc147768_0
+  setuptools         pkgs/main/linux-64::setuptools-58.0.4-py37h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.38.2-hc218d9a_0
+  tensorboard        pkgs/main/noarch::tensorboard-2.4.0-pyhc547734_0
+  tensorboard-plugi~ pkgs/main/noarch::tensorboard-plugin-wit-1.6.0-py_0
+  tensorflow         pkgs/main/linux-64::tensorflow-2.4.1-gpu_py37ha2e99fa_0
+  tensorflow-base    pkgs/main/linux-64::tensorflow-base-2.4.1-gpu_py37h29c2da4_0
+  tensorflow-estima~ pkgs/main/noarch::tensorflow-estimator-2.6.0-pyh7b7c402_0
+  tensorflow-gpu     pkgs/main/linux-64::tensorflow-gpu-2.4.1-h30adc30_0
+  termcolor          pkgs/main/linux-64::termcolor-1.1.0-py37h06a4308_1
+  tk                 pkgs/main/linux-64::tk-8.6.11-h1ccaba5_0
+  typing-extensions  pkgs/main/noarch::typing-extensions-4.1.1-hd3eb1b0_0
+  typing_extensions  pkgs/main/noarch::typing_extensions-4.1.1-pyh06a4308_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.8-pyhd3eb1b0_0
+  werkzeug           pkgs/main/noarch::werkzeug-2.0.3-pyhd3eb1b0_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  wrapt              pkgs/main/linux-64::wrapt-1.13.3-py37h7f8727e_2
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7b6447c_0
+  yarl               pkgs/main/linux-64::yarl-1.6.3-py37h27cfd23_0
+  zipp               pkgs/main/noarch::zipp-3.7.0-pyhd3eb1b0_0
+  zlib               pkgs/main/linux-64::zlib-1.2.11-h7f8727e_4
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+idna-3.3             | 49 KB     |            |   0% idna-3.3             | 49 KB     | ###2       |  33% idna-3.3             | 49 KB     | ########## | 100% idna-3.3             | 49 KB     | ########## | 100% 
+protobuf-3.19.1      | 306 KB    |            |   0% protobuf-3.19.1      | 306 KB    | ########## | 100% protobuf-3.19.1      | 306 KB    | ########## | 100% 
+zlib-1.2.11          | 108 KB    |            |   0% zlib-1.2.11          | 108 KB    | ########## | 100% zlib-1.2.11          | 108 KB    | ########## | 100% 
+numpy-base-1.21.2    | 4.8 MB    |            |   0% numpy-base-1.21.2    | 4.8 MB    | ########## | 100% numpy-base-1.21.2    | 4.8 MB    | ########## | 100% 
+rsa-4.7.2            | 28 KB     |            |   0% rsa-4.7.2            | 28 KB     | ########## | 100% rsa-4.7.2            | 28 KB     | ########## | 100% 
+multidict-5.2.0      | 62 KB     |            |   0% multidict-5.2.0      | 62 KB     | ########## | 100% multidict-5.2.0      | 62 KB     | ########## | 100% 
+mkl_random-1.2.2     | 287 KB    |            |   0% mkl_random-1.2.2     | 287 KB    | ########## | 100% mkl_random-1.2.2     | 287 KB    | ########## | 100% 
+blinker-1.4          | 23 KB     |            |   0% blinker-1.4          | 23 KB     | ########## | 100% blinker-1.4          | 23 KB     | ########## | 100% 
+tensorflow-2.4.1     | 4 KB      |            |   0% tensorflow-2.4.1     | 4 KB      | ########## | 100% 
+importlib-metadata-4 | 40 KB     |            |   0% importlib-metadata-4 | 40 KB     | ########## | 100% importlib-metadata-4 | 40 KB     | ########## | 100% 
+cryptography-3.4.8   | 941 KB    |            |   0% cryptography-3.4.8   | 941 KB    | ########## | 100% cryptography-3.4.8   | 941 KB    | ########## | 100% 
+python-flatbuffers-2 | 34 KB     |            |   0% python-flatbuffers-2 | 34 KB     | ########## | 100% python-flatbuffers-2 | 34 KB     | ########## | 100% 
+scipy-1.7.3          | 16.4 MB   |            |   0% scipy-1.7.3          | 16.4 MB   | ####1      |  42% scipy-1.7.3          | 16.4 MB   | ########## | 100% scipy-1.7.3          | 16.4 MB   | ########## | 100% 
+astunparse-1.6.3     | 17 KB     |            |   0% astunparse-1.6.3     | 17 KB     | ########## | 100% astunparse-1.6.3     | 17 KB     | ########## | 100% 
+requests-oauthlib-1. | 23 KB     |            |   0% requests-oauthlib-1. | 23 KB     | ########## | 100% requests-oauthlib-1. | 23 KB     | ########## | 100% 
+ca-certificates-2022 | 117 KB    |            |   0% ca-certificates-2022 | 117 KB    | ########## | 100% ca-certificates-2022 | 117 KB    | ########## | 100% 
+h5py-2.10.0          | 902 KB    |            |   0% h5py-2.10.0          | 902 KB    | ########## | 100% h5py-2.10.0          | 902 KB    | ########## | 100% 
+openssl-1.1.1n       | 2.5 MB    |            |   0% openssl-1.1.1n       | 2.5 MB    | ########## | 100% openssl-1.1.1n       | 2.5 MB    | ########## | 100% 
+requests-2.27.1      | 54 KB     |            |   0% requests-2.27.1      | 54 KB     | ########## | 100% requests-2.27.1      | 54 KB     | ########## | 100% 
+zipp-3.7.0           | 12 KB     |            |   0% zipp-3.7.0           | 12 KB     | ########## | 100% zipp-3.7.0           | 12 KB     | ########## | 100% 
+tensorflow-gpu-2.4.1 | 3 KB      |            |   0% tensorflow-gpu-2.4.1 | 3 KB      | ########## | 100% 
+cudnn-7.6.5          | 179.9 MB  |            |   0% cudnn-7.6.5          | 179.9 MB  | 2          |   2% cudnn-7.6.5          | 179.9 MB  | 5          |   6% cudnn-7.6.5          | 179.9 MB  | 9          |  10% cudnn-7.6.5          | 179.9 MB  | #4         |  14% cudnn-7.6.5          | 179.9 MB  | #7         |  18% cudnn-7.6.5          | 179.9 MB  | ##1        |  22% cudnn-7.6.5          | 179.9 MB  | ##5        |  26% cudnn-7.6.5          | 179.9 MB  | ##9        |  30% cudnn-7.6.5          | 179.9 MB  | ###4       |  34% cudnn-7.6.5          | 179.9 MB  | ###9       |  39% cudnn-7.6.5          | 179.9 MB  | ####4      |  45% cudnn-7.6.5          | 179.9 MB  | ####9      |  49% cudnn-7.6.5          | 179.9 MB  | #####4     |  54% cudnn-7.6.5          | 179.9 MB  | #####9     |  59% cudnn-7.6.5          | 179.9 MB  | ######4    |  64% cudnn-7.6.5          | 179.9 MB  | ######8    |  69% cudnn-7.6.5          | 179.9 MB  | #######3   |  73% cudnn-7.6.5          | 179.9 MB  | #######8   |  79% cudnn-7.6.5          | 179.9 MB  | ########3  |  83% cudnn-7.6.5          | 179.9 MB  | ########8  |  88% cudnn-7.6.5          | 179.9 MB  | #########4 |  95% cudnn-7.6.5          | 179.9 MB  | ########## | 100% 
+tensorboard-plugin-w | 630 KB    |            |   0% tensorboard-plugin-w | 630 KB    | ########## | 100% tensorboard-plugin-w | 630 KB    | ########## | 100% 
+frozenlist-1.2.0     | 78 KB     |            |   0% frozenlist-1.2.0     | 78 KB     | ########## | 100% frozenlist-1.2.0     | 78 KB     | ########## | 100% 
+urllib3-1.26.8       | 106 KB    |            |   0% urllib3-1.26.8       | 106 KB    | ########## | 100% urllib3-1.26.8       | 106 KB    | ########## | 100% 
+numpy-1.21.2         | 23 KB     |            |   0% numpy-1.21.2         | 23 KB     | ########## | 100% numpy-1.21.2         | 23 KB     | ########## | 100% 
+click-8.0.4          | 152 KB    |            |   0% click-8.0.4          | 152 KB    | ########## | 100% click-8.0.4          | 152 KB    | ########## | 100% 
+markdown-3.3.4       | 127 KB    |            |   0% markdown-3.3.4       | 127 KB    | ########## | 100% markdown-3.3.4       | 127 KB    | ########## | 100% 
+astor-0.8.1          | 47 KB     |            |   0% astor-0.8.1          | 47 KB     | ########## | 100% astor-0.8.1          | 47 KB     | ########## | 100% 
+ncurses-6.3          | 782 KB    |            |   0% ncurses-6.3          | 782 KB    | ########## | 100% ncurses-6.3          | 782 KB    | ########## | 100% 
+tensorboard-2.4.0    | 8.8 MB    |            |   0% tensorboard-2.4.0    | 8.8 MB    | 3          |   3% tensorboard-2.4.0    | 8.8 MB    | ########## | 100% tensorboard-2.4.0    | 8.8 MB    | ########## | 100% 
+aiohttp-3.8.1        | 514 KB    |            |   0% aiohttp-3.8.1        | 514 KB    | ########## | 100% aiohttp-3.8.1        | 514 KB    | ########## | 100% 
+tensorflow-estimator | 267 KB    |            |   0% tensorflow-estimator | 267 KB    | ########## | 100% tensorflow-estimator | 267 KB    | ########## | 100% 
+mkl-service-2.4.0    | 56 KB     |            |   0% mkl-service-2.4.0    | 56 KB     | ########## | 100% mkl-service-2.4.0    | 56 KB     | ########## | 100% 
+pip-21.2.2           | 1.8 MB    |            |   0% pip-21.2.2           | 1.8 MB    | ########3  |  83% pip-21.2.2           | 1.8 MB    | ########## | 100% 
+asynctest-0.13.0     | 26 KB     |            |   0% asynctest-0.13.0     | 26 KB     | ########## | 100% asynctest-0.13.0     | 26 KB     | ########## | 100% 
+brotlipy-0.7.0       | 320 KB    |            |   0% brotlipy-0.7.0       | 320 KB    | ########## | 100% brotlipy-0.7.0       | 320 KB    | ########## | 100% 
+mkl_fft-1.3.1        | 172 KB    |            |   0% mkl_fft-1.3.1        | 172 KB    | ########## | 100% mkl_fft-1.3.1        | 172 KB    | ########## | 100% 
+aiosignal-1.2.0      | 12 KB     |            |   0% aiosignal-1.2.0      | 12 KB     | ########## | 100% aiosignal-1.2.0      | 12 KB     | ########## | 100% 
+cupti-10.1.168       | 1.4 MB    |            |   0% cupti-10.1.168       | 1.4 MB    | ########## | 100% cupti-10.1.168       | 1.4 MB    | ########## | 100% 
+yarl-1.6.3           | 133 KB    |            |   0% yarl-1.6.3           | 133 KB    | ########## | 100% yarl-1.6.3           | 133 KB    | ########## | 100% 
+tensorflow-base-2.4. | 195.2 MB  |            |   0% tensorflow-base-2.4. | 195.2 MB  | 1          |   2% tensorflow-base-2.4. | 195.2 MB  | 5          |   5% tensorflow-base-2.4. | 195.2 MB  | 8          |   9% tensorflow-base-2.4. | 195.2 MB  | #1         |  12% tensorflow-base-2.4. | 195.2 MB  | #5         |  16% tensorflow-base-2.4. | 195.2 MB  | #9         |  20% tensorflow-base-2.4. | 195.2 MB  | ##3        |  24% tensorflow-base-2.4. | 195.2 MB  | ##6        |  27% tensorflow-base-2.4. | 195.2 MB  | ###        |  31% tensorflow-base-2.4. | 195.2 MB  | ###5       |  35% tensorflow-base-2.4. | 195.2 MB  | ###9       |  39% tensorflow-base-2.4. | 195.2 MB  | ####4      |  44% tensorflow-base-2.4. | 195.2 MB  | ####9      |  49% tensorflow-base-2.4. | 195.2 MB  | #####3     |  54% tensorflow-base-2.4. | 195.2 MB  | #####8     |  58% tensorflow-base-2.4. | 195.2 MB  | ######2    |  63% tensorflow-base-2.4. | 195.2 MB  | ######6    |  67% tensorflow-base-2.4. | 195.2 MB  | #######1   |  72% tensorflow-base-2.4. | 195.2 MB  | #######6   |  77% tensorflow-base-2.4. | 195.2 MB  | ########1  |  81% tensorflow-base-2.4. | 195.2 MB  | ########5  |  86% tensorflow-base-2.4. | 195.2 MB  | #########  |  91% tensorflow-base-2.4. | 195.2 MB  | #########6 |  96% tensorflow-base-2.4. | 195.2 MB  | ########## | 100% 
+grpcio-1.42.0        | 2.1 MB    |            |   0% grpcio-1.42.0        | 2.1 MB    | ########## | 100% grpcio-1.42.0        | 2.1 MB    | ########## | 100% 
+cudatoolkit-10.1.243 | 347.4 MB  |            |   0% cudatoolkit-10.1.243 | 347.4 MB  | 1          |   1% cudatoolkit-10.1.243 | 347.4 MB  | 4          |   4% cudatoolkit-10.1.243 | 347.4 MB  | 7          |   7% cudatoolkit-10.1.243 | 347.4 MB  | #          |  10% cudatoolkit-10.1.243 | 347.4 MB  | #3         |  13% cudatoolkit-10.1.243 | 347.4 MB  | #6         |  16% cudatoolkit-10.1.243 | 347.4 MB  | #9         |  19% cudatoolkit-10.1.243 | 347.4 MB  | ##2        |  22% cudatoolkit-10.1.243 | 347.4 MB  | ##5        |  25% cudatoolkit-10.1.243 | 347.4 MB  | ##8        |  28% cudatoolkit-10.1.243 | 347.4 MB  | ###1       |  32% cudatoolkit-10.1.243 | 347.4 MB  | ###4       |  35% cudatoolkit-10.1.243 | 347.4 MB  | ###7       |  38% cudatoolkit-10.1.243 | 347.4 MB  | ####1      |  41% cudatoolkit-10.1.243 | 347.4 MB  | ####3      |  44% cudatoolkit-10.1.243 | 347.4 MB  | ####6      |  47% cudatoolkit-10.1.243 | 347.4 MB  | #####      |  50% cudatoolkit-10.1.243 | 347.4 MB  | #####3     |  54% cudatoolkit-10.1.243 | 347.4 MB  | #####7     |  57% cudatoolkit-10.1.243 | 347.4 MB  | ######1    |  61% cudatoolkit-10.1.243 | 347.4 MB  | ######4    |  64% cudatoolkit-10.1.243 | 347.4 MB  | ######7    |  67% cudatoolkit-10.1.243 | 347.4 MB  | #######1   |  71% cudatoolkit-10.1.243 | 347.4 MB  | #######4   |  74% cudatoolkit-10.1.243 | 347.4 MB  | #######8   |  78% cudatoolkit-10.1.243 | 347.4 MB  | ########1  |  81% cudatoolkit-10.1.243 | 347.4 MB  | ########4  |  85% cudatoolkit-10.1.243 | 347.4 MB  | ########7  |  88% cudatoolkit-10.1.243 | 347.4 MB  | #########1 |  92% cudatoolkit-10.1.243 | 347.4 MB  | #########5 |  95% cudatoolkit-10.1.243 | 347.4 MB  | #########8 |  99% cudatoolkit-10.1.243 | 347.4 MB  | ########## | 100% 
+c-ares-1.18.1        | 114 KB    |            |   0% c-ares-1.18.1        | 114 KB    | ########## | 100% c-ares-1.18.1        | 114 KB    | ########## | 100% 
+termcolor-1.1.0      | 9 KB      |            |   0% termcolor-1.1.0      | 9 KB      | ########## | 100% termcolor-1.1.0      | 9 KB      | ########## | 100% 
+pyasn1-modules-0.2.8 | 72 KB     |            |   0% pyasn1-modules-0.2.8 | 72 KB     | ########## | 100% pyasn1-modules-0.2.8 | 72 KB     | ########## | 100% 
+google-pasta-0.2.0   | 46 KB     |            |   0% google-pasta-0.2.0   | 46 KB     | ########## | 100% google-pasta-0.2.0   | 46 KB     | ########## | 100% 
+python-3.7.13        | 46.2 MB   |            |   0% python-3.7.13        | 46.2 MB   | 5          |   6% python-3.7.13        | 46.2 MB   | ##2        |  23% python-3.7.13        | 46.2 MB   | ####4      |  45% python-3.7.13        | 46.2 MB   | ######1    |  61% python-3.7.13        | 46.2 MB   | ########2  |  82% python-3.7.13        | 46.2 MB   | ########## | 100% python-3.7.13        | 46.2 MB   | ########## | 100% 
+google-auth-oauthlib | 18 KB     |            |   0% google-auth-oauthlib | 18 KB     | ########## | 100% google-auth-oauthlib | 18 KB     | ########## | 100% 
+pysocks-1.7.1        | 27 KB     |            |   0% pysocks-1.7.1        | 27 KB     | ########## | 100% pysocks-1.7.1        | 27 KB     | ########## | 100% 
+werkzeug-2.0.3       | 221 KB    |            |   0% werkzeug-2.0.3       | 221 KB    | ########## | 100% werkzeug-2.0.3       | 221 KB    | ########## | 100% 
+_tflow_select-2.1.0  | 2 KB      |            |   0% _tflow_select-2.1.0  | 2 KB      | ########## | 100% 
+wrapt-1.13.3         | 51 KB     |            |   0% wrapt-1.13.3         | 51 KB     | ########## | 100% wrapt-1.13.3         | 51 KB     | ########## | 100% 
+typing-extensions-4. | 8 KB      |            |   0% typing-extensions-4. | 8 KB      | ########## | 100% typing-extensions-4. | 8 KB      | ########## | 100% 
+async-timeout-4.0.1  | 10 KB     |            |   0% async-timeout-4.0.1  | 10 KB     | ########## | 100% async-timeout-4.0.1  | 10 KB     | ########## | 100% 
+certifi-2021.10.8    | 151 KB    |            |   0% certifi-2021.10.8    | 151 KB    | ########## | 100% certifi-2021.10.8    | 151 KB    | ########## | 100% 
+opt_einsum-3.3.0     | 57 KB     |            |   0% opt_einsum-3.3.0     | 57 KB     | ########## | 100% opt_einsum-3.3.0     | 57 KB     | ########## | 100% 
+cachetools-4.2.2     | 13 KB     |            |   0% cachetools-4.2.2     | 13 KB     | ########## | 100% cachetools-4.2.2     | 13 KB     | ########## | 100% 
+readline-8.1.2       | 354 KB    |            |   0% readline-8.1.2       | 354 KB    | ########## | 100% readline-8.1.2       | 354 KB    | ########## | 100% 
+libprotobuf-3.19.1   | 2.1 MB    |            |   0% libprotobuf-3.19.1   | 2.1 MB    | ########## | 100% libprotobuf-3.19.1   | 2.1 MB    | ########## | 100% 
+google-auth-2.6.0    | 83 KB     |            |   0% google-auth-2.6.0    | 83 KB     | ########## | 100% google-auth-2.6.0    | 83 KB     | ########## | 100% 
+pyasn1-0.4.8         | 54 KB     |            |   0% pyasn1-0.4.8         | 54 KB     | ########## | 100% pyasn1-0.4.8         | 54 KB     | ########## | 100% 
+absl-py-0.15.0       | 103 KB    |            |   0% absl-py-0.15.0       | 103 KB    | ########## | 100% absl-py-0.15.0       | 103 KB    | ########## | 100% 
+oauthlib-3.2.0       | 92 KB     |            |   0% oauthlib-3.2.0       | 92 KB     | ########## | 100% oauthlib-3.2.0       | 92 KB     | ########## | 100% 
+gast-0.4.0           | 13 KB     |            |   0% gast-0.4.0           | 13 KB     | ########## | 100% gast-0.4.0           | 13 KB     | ########## | 100% 
+wheel-0.37.1         | 33 KB     |            |   0% wheel-0.37.1         | 33 KB     | ########## | 100% wheel-0.37.1         | 33 KB     | ########## | 100% 
+keras-preprocessing- | 35 KB     |            |   0% keras-preprocessing- | 35 KB     | ########## | 100% keras-preprocessing- | 35 KB     | ########## | 100% 
+pyjwt-2.1.0          | 32 KB     |            |   0% pyjwt-2.1.0          | 32 KB     | ########## | 100% pyjwt-2.1.0          | 32 KB     | ########## | 100% 
+cffi-1.15.0          | 222 KB    |            |   0% cffi-1.15.0          | 222 KB    | ########## | 100% cffi-1.15.0          | 222 KB    | ########## | 100% 
+typing_extensions-4. | 28 KB     |            |   0% typing_extensions-4. | 28 KB     | ########## | 100% typing_extensions-4. | 28 KB     | ########## | 100% 
+sqlite-3.38.2        | 1.0 MB    |            |   0% sqlite-3.38.2        | 1.0 MB    | ########## | 100% sqlite-3.38.2        | 1.0 MB    | ########## | 100% 
+setuptools-58.0.4    | 775 KB    |            |   0% setuptools-58.0.4    | 775 KB    | ########## | 100% setuptools-58.0.4    | 775 KB    | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate seg
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+

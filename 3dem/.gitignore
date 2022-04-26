@@ -75,8 +75,8 @@ target/
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
 
-# exclude data from source control by default
-/data/
+# exclude data from source control by default. exclude data of MDC
+/dataTemp/
 
 # Mac OS-specific storage files
 .DS_Store
@@ -87,3 +87,20 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# all mrc data from MDC
+*.mrc
+
+
+# half-processed data
+*.npy
+
+# half-processed model
+*.h5
+
+# transferred code
+*.py
+
+# images
+*.png
+
